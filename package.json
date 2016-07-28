@@ -1,6 +1,6 @@
 {
   "name": "better-queue-nedb",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Nedb store for better-queue",
   "main": "lib/stores/NedbStore.js",
   "directories": {
