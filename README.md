@@ -41,14 +41,14 @@ q.push({ x: 1 })
 
 #### Issues
 
-Currently failing 7 test from better queue.
+Currently failing ~~7~~ 5 test from better queue.
 
-1. Basic Queue should run filo:
-2. Basic Queue should concurrently handle tasks
+1. ~~Basic Queue should run filo~~
+2. ~~Basic Queue should concurrently handle tasks~~
 3. Basic Queue should timeout and fail
 4. Basic Queue should cancel while running and in queue
 5. Basic Queue should respect batchDelayTimeout
-6. Basic Queue should respect batchDelayTimeout
+6. Basic Queue merge batches should call all push callbacks
 7. Basic Queue cancel should not retry
 
 I've also seen the "should run fifo" and "should prioritize" test fail. 
