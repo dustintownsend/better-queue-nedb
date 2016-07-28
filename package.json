@@ -1,0 +1,37 @@
+{
+  "name": "better-queue-nedb",
+  "version": "0.1.0",
+  "description": "Nedb store for better-queue",
+  "main": "lib/stores/NedbStore.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dustintownsend/better-queue-nedb.git"
+  },
+  "keywords": [
+    "nedb",
+    "better-queue"
+  ],
+  "author": "Dustin Townsend",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dustintownsend/better-queue-nedb/issues"
+  },
+  "homepage": "https://github.com/dustintownsend/better-queue-nedb#readme",
+  "devDependencies": {
+    "async": "^2.0.1",
+    "better-queue": "^3.7.20",
+    "extend": "^3.0.0",
+    "fs-extra": "^0.30.0",
+    "mocha": "^2.5.3",
+    "mockery": "^1.7.0"
+  },
+  "dependencies": {
+    "nedb": "^1.8.0"
+  }
+}

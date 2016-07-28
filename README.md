@@ -1,2 +1,1 @@
-# better-queue-nedb
-Nedb Store for better-queue
+# Better Queue Nedb Store
