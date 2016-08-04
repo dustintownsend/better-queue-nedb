@@ -10,6 +10,11 @@ var store = function (databaseName) {
 }
 
 describe('Basic Queue', function () {
+    before(function () {
+        console.log('   Skipping Basic Queue test.')
+        this.skip();
+    });
+
     afterEach(helper.destroyQueues);
 
     it('should succeed', function (done) {
