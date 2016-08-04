@@ -26,6 +26,7 @@
   "devDependencies": {
     "async": "^2.0.1",
     "better-queue": "^3.7.20",
+    "better-queue-store-test": "^1.0.2",
     "fs-extra": "^0.30.0",
     "mocha": "^2.5.3",
     "mockery": "^1.7.0"
