@@ -25,7 +25,7 @@
   "homepage": "https://github.com/dustintownsend/better-queue-nedb#readme",
   "devDependencies": {
     "async": "^2.0.1",
-    "better-queue": "^3.7.20",
+    "better-queue": "git+https://github.com/diamondio/better-queue.git#66be88a2a68b00aff2ac9545fe004dad52b0e49d",
     "better-queue-store-test": "^1.0.2",
     "fs-extra": "^0.30.0",
     "mocha": "^2.5.3",
