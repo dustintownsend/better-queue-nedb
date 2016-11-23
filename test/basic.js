@@ -1,7 +1,7 @@
 var assert = require('assert');
 var helper = require('./lib/helper');
 var Queue = require('better-queue');
-var uuid = require('node-uuid');
+var uuid = require('uuid');
 
 var store = function (databaseName) {
     var NedbStore = require('../lib/stores/NedbStore');
